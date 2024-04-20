@@ -1,3 +1,5 @@
+pip install -q datasets diffusers transformers accelerate torchmetrics[image]
+
 from PIL import Image
 import os
 from datasets import load_dataset
