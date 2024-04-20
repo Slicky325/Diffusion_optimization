@@ -4,6 +4,7 @@ from datasets import load_dataset
 from diffusers import StableDiffusionPipeline
 import torch
 import gc
+import numpy as np
 
 sample_prompts = [
     "cute white mouse pilot wearing aviator glasses holding a flight helmet",
